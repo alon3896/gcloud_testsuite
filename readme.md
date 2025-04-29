@@ -30,5 +30,3 @@ Follow the steps below to run the test suite:
 ## Notes
 - Make sure your GCloud CLI is properly configured.
 
-## License
-This project is licensed under the MIT License.
