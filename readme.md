@@ -2,7 +2,7 @@
 
 This project contains a suite of tests for validating GCloud functionality.
 
-## How to Run the Tests
+
 
 ## ✅ Prerequisites
 
@@ -11,8 +11,9 @@ This project contains a suite of tests for validating GCloud functionality.
 3. **Node.js & npm**
 4. **gcloud CLI** (authenticated: `gcloud init`)
 5. **Playwright**
-Follow the steps below to run the test suite:
 
+## How to Run the Tests
+Follow the steps below to run the test suite:
 1. **Set Up GCloud Authentication**  
 2. **modify  src/main/resources/config.yaml with your bucket and file info
 3. **Build the Project**  
