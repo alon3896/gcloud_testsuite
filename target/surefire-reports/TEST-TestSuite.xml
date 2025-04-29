@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.297" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\dev\for_mend\gcloud_testsuite\target\test-classes;C:\dev\for_mend\gcloud_testsuite\target\classes;C:\Users\Asus\.m2\repository\com\microsoft\playwright\playwright\1.43.0\playwright-1.43.0.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Asus\.m2\repository\com\microsoft\playwright\driver\1.43.0\driver-1.43.0.jar;C:\Users\Asus\.m2\repository\com\microsoft\playwright\driver-bundle\1.43.0\driver-bundle-1.43.0.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.1\jackson-dataformat-yaml-2.17.1.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Asus\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire15158932941735127399\surefirebooter-20250429213957692_3.jar C:\Users\Asus\AppData\Local\Temp\surefire15158932941735127399 2025-04-29T21-39-57_597-jvmRun1 surefire-20250429213957692_1tmp surefire_0-20250429213957692_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\dev\for_mend\gcloud_testsuite\target\test-classes;C:\dev\for_mend\gcloud_testsuite\target\classes;C:\Users\Asus\.m2\repository\com\microsoft\playwright\playwright\1.43.0\playwright-1.43.0.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Asus\.m2\repository\com\microsoft\playwright\driver\1.43.0\driver-1.43.0.jar;C:\Users\Asus\.m2\repository\com\microsoft\playwright\driver-bundle\1.43.0\driver-bundle-1.43.0.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.1\jackson-dataformat-yaml-2.17.1.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Asus\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\dev\for_mend\gcloud_testsuite"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire15158932941735127399\surefirebooter-20250429213957692_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="Asus"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\dev\for_mend\gcloud_testsuite"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\Asus\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Asus\AppData\Local\Programs\Python\Python313\;C:\Users\Asus\AppData\Local\Programs\Python\Launcher\;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2025.1\bin;;C:\Users\Asus\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testDeleteObjectAndVerifyInaccessible" classname="DeleteItemTest" time="4.381">
+    <failure message="gcloud delete command failed expected [0] but found [1]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: gcloud delete command failed expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at DeleteItemTest.testDeleteObjectAndVerifyInaccessible(DeleteItemTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TestPrivateObjectExisitsAndNotLoad" classname="ObjectListTests" time="12.935">
+    <system-out><![CDATA[Bucket: for_mend
+Command: gcloud storage objects list gs://for_mend
+Expected URL: gs://for_mend/Bulldog_inglese.jpg
+Object found: true
+https://storage.googleapis.com/for_mend/Bulldog_inglese.jpg
+]]></system-out>
+  </testcase>
+  <testcase name="testPublicObjectExistsAndLoadsInBrowser" classname="ObjectListTests" time="2.446">
+    <failure message="Public file did not load successfully expected [200] but found [403]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Public file did not load successfully expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at ObjectListTests.testPublicObjectExistsAndLoadsInBrowser(ObjectListTests.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Bucket: for_mend
+Command: gcloud storage objects list gs://for_mend
+Expected URL: gs://for_mend/tito.jpg
+1---
+1bucket: for_mend
+1content_type: image/jpeg
+1crc32c_hash: jRr2dA==
+1creation_time: 2025-04-27T12:28:54+0000
+1etag: CLbhxq+b+IwDEAE=
+1generation: '1745756934484150'
+1md5_hash: 01rwGvDXibPb57aUc37Q0Q==
+1metageneration: 1
+1name: Bulldog_inglese.jpg
+1size: 140461
+1storage_class: STANDARD
+1storage_class_update_time: 2025-04-27T12:28:54+0000
+1storage_url: gs://for_mend/Bulldog_inglese.jpg#1745756934484150
+1update_time: 2025-04-27T12:28:54+0000
+1---
+1bucket: for_mend
+1content_type: image/jpeg
+1crc32c_hash: 8y2T1g==
+1creation_time: 2025-04-29T09:18:04+0000
+1etag: CJLSpLn0/IwDEBQ=
+1generation: '1745918284605714'
+1md5_hash: Sc3rv3RfGK6ZJuEeIdPSXQ==
+1metageneration: 20
+1name: tito.jpg
+1size: 16031
+1storage_class: STANDARD
+1storage_class_update_time: 2025-04-29T09:18:04+0000
+1storage_url: gs://for_mend/tito.jpg#1745918284605714
+Object found: true
+]]></system-out>
+  </testcase>
+  <testcase name="generateSignedUrlTest" classname="SignedUrlTests" time="2.054">
+    <system-out><![CDATA[Command: gcloud storage sign-url gs://for_mend/Bulldog_inglese.jpg --duration=5m
+---
+expiration: '2025-04-29 18:45:19'
+http_verb: GET
+resource: gs://for_mend/Bulldog_inglese.jpg
+signed_url: https://storage.googleapis.com/for_mend/Bulldog_inglese.jpg?x-goog-signature=00d11c8fa0a8161a5d8655b0543ea228d0cf7bc0baa5290d26e117e4e9da37d1304b9f75d9fb74df7a50ca704f47b441e7535f14b66c2a11122db8cf1c5197df6fe32ec695e032cec4f5109fd856e2664195b3d8a0a1bfb5c55c4a2a7db98fbca2e6f0458fa2b710dc43de3b9e83fcf51afd3f7768827c0cce81da02e724e8f365e5dc849adb48544223e2675b4f11b05f837ba753c95c8441eb72eeaa5432daed5c58c1d4ced8ceea8daca2a5e886e12401f69b68d4ef2835b8c9add447faa444fb8d73a0c8f228db601855639d7f3eafd04fb451fb087df5564f2dd1d84069f534fe68a6c121bcc9a26eeb3bcf97224eb5eaf14ebead1849256aa9f5a84592&x-goog-algorithm=GOOG4-RSA-SHA256&x-goog-credential=formend%40for-mend.iam.gserviceaccount.com%2F20250429%2Fus%2Fstorage%2Fgoog4_request&x-goog-date=20250429T184019Z&x-goog-expires=300&x-goog-signedheaders=host
+Signed URL: https://storage.googleapis.com/for_mend/Bulldog_inglese.jpg?x-goog-signature=00d11c8fa0a8161a5d8655b0543ea228d0cf7bc0baa5290d26e117e4e9da37d1304b9f75d9fb74df7a50ca704f47b441e7535f14b66c2a11122db8cf1c5197df6fe32ec695e032cec4f5109fd856e2664195b3d8a0a1bfb5c55c4a2a7db98fbca2e6f0458fa2b710dc43de3b9e83fcf51afd3f7768827c0cce81da02e724e8f365e5dc849adb48544223e2675b4f11b05f837ba753c95c8441eb72eeaa5432daed5c58c1d4ced8ceea8daca2a5e886e12401f69b68d4ef2835b8c9add447faa444fb8d73a0c8f228db601855639d7f3eafd04fb451fb087df5564f2dd1d84069f534fe68a6c121bcc9a26eeb3bcf97224eb5eaf14ebead1849256aa9f5a84592&x-goog-algorithm=GOOG4-RSA-SHA256&x-goog-credential=formend%40for-mend.iam.gserviceaccount.com%2F20250429%2Fus%2Fstorage%2Fgoog4_request&x-goog-date=20250429T184019Z&x-goog-expires=300&x-goog-signedheaders=host
+Signed URL written to: C:\dev\for_mend\gcloud_testsuite\target\signed_url.txt
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAccessToSignedUrlTest" classname="SignedUrlTests" time="11.748"/>
+  <testcase name="testUpdateAccessPublicToPrivate" classname="UpdateAccessTests" time="10.393">
+    <system-out><![CDATA[gcloud storage objects update gs://for_mend/tito.jpg --canned-acl=private
+]]></system-out>
+  </testcase>
+</testsuite>

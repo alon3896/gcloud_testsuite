@@ -1,0 +1,36 @@
+
+# ===========================
+# Configuration for gcloud tests
+# Please change the values according to your needs!
+# ===========================
+
+# The name of the Bucket in the Google Cloud Storage where the test files are stored.
+# Used in:
+# - Signed URL test
+# - Bucket access test
+bucket_name: "for_mend"
+
+
+# The path to the private item in Bucket for signed URL tests.
+# Used in:
+# - Signed URL test (temporary signed URL to a private object)
+private_object_path: "gs://for_mend/Bulldog_inglese.jpg"
+
+# the duration of the signed URL.
+# Used in:
+# - Signed URL test
+duration: "5m"
+
+# The path to the public item in Bucket.
+# Used in:
+# - Object exists and loads test (browser)
+# - update access of public file to private test
+public_file_url: "gs://for_mend/tito.jpg"
+
+# The path to a junk\unwanted file for delete test
+# usud in
+# - Delete item test
+junk_file_url: "gs://for_mend/junk.jpeg"
+
+
+
